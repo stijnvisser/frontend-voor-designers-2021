@@ -27,4 +27,4 @@ Dit heb ik doormiddel van een sidenavigation gemaakt. Door deze sidenavigation e
 
 Versie 1
 
-![website](frontend-voor-designers-2021/img/versie1.jpeg)
+![website](opdracht1/Studentenhuizen_site/images/versie1.jpeg)
