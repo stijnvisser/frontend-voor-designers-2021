@@ -29,3 +29,9 @@ Versie 1
 
 ![website](frontend-voor-designers-2021/img/opdracht1versie1.png)
 ![alt text](frontend-voor-designers-2021/img/opdracht1versie1.png "opdracht1versie1")
+
+Versie 2
+
+Bij de tweede versie van mijn site heb ik bij elke woning een eigen side navigation gemaakt.
+
+
