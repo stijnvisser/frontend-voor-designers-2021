@@ -34,4 +34,6 @@ Versie 2
 
 Bij de tweede versie van mijn site heb ik bij elke woning een eigen side navigation gemaakt.
 
+Daarnaast is elke woning voorzien van een aparte kleur zodat het onderscheid onder de verschillende woningen duidelijker is.
+
 
