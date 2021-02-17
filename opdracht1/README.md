@@ -27,4 +27,5 @@ Dit heb ik doormiddel van een sidenavigation gemaakt. Door deze sidenavigation e
 
 Versie 1
 
-![website](frontend-voor-designers-2021/img/versie1.jpeg)
+![website](frontend-voor-designers-2021/img/opdracht1versie1.jpeg)
+![alt text](./img/opdracht1versie1.jpeg "opdracht1versie1")
