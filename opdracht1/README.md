@@ -24,3 +24,8 @@ Voor opdracht 1 heb ik een site gemaakt waar een lijst van beschikbare studenten
 
 Door op de detail knop te drukken komt rechts van het scherm een extra venster waar je deze detail kan bekijken.
 Dit heb ik doormiddel van een sidenavigation gemaakt. Door deze sidenavigation een z-index en een overflow:hidden; mee te geven kan je er voor zorgen dat dit venster het scherm in komt wanneer je op een bepaalde knop drukt. Dit moet je dan nog wel even met javascript programmeren.
+
+Versie 1
+
+![website](frontend-voor-designers-2021/img/opdracht1versie1.jpeg)
+![alt text](./img/opdracht1versie1.jpeg "opdracht1versie1")
