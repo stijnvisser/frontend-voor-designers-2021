@@ -10,7 +10,7 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 In een lijst studentenhuizen wil ik details kunnen bekijken om 
 te bepalen of de kamer geschikt is om te huren.
 
-Link demo:file:///Users/stijnvisser/Desktop/CMD%20Amsterdam/jaar%202/blok3/frontend-voor-designers-2021/opdracht1/Studentenhuizen_site/index.html
+Link demo:https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht1/Studentenhuizen_site/
 
 ## interface
 Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
@@ -27,5 +27,13 @@ Dit heb ik doormiddel van een sidenavigation gemaakt. Door deze sidenavigation e
 
 Versie 1
 
-![website](frontend-voor-designers-2021/img/opdracht1versie1.jpeg)
-![alt text](./img/opdracht1versie1.jpeg "opdracht1versie1")
+![website](img/opdracht1versie1.png)
+![alt text](./img/opdracht1versie1.png "opdracht1versie1")
+
+Versie 2
+
+Bij de tweede versie van mijn site heeft elke woning een eigen side-navigation waarop de data van de betreffende woning te zien is.
+
+Daarnaast is elke woning voorzien van een aparte kleur zodat het onderscheid onder de verschillende woningen duidelijker is.
+
+
