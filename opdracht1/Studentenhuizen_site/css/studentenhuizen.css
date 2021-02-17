@@ -116,6 +116,173 @@ header h1 {
     transform: rotate(360deg);
 }
 
+
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+.sidenav2 p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav2 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav2 #closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition-duration: 1000ms;
+    transition-property: background, transform;
+    transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+    transition-delay: 2s;
+}
+
+.sidenav2 #closbtn {
+    transform: rotate(360deg);
+}
+
+
+
+.sidenav3 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+.sidenav3 p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav3 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav3 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav3 #closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition-duration: 1000ms;
+    transition-property: background, transform;
+    transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+    transition-delay: 2s;
+}
+
+.sidenav3 #closbtn {
+    transform: rotate(360deg);
+}
+
+
+.sidenav4 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: red;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+.sidenav4 p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav4 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: helvetica;
+}
+
+.sidenav4 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav4 #closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition-duration: 1000ms;
+    transition-property: background, transform;
+    transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+    transition-delay: 2s;
+}
+
+.sidenav4 #closbtn {
+    transform: rotate(360deg);
+}
+
+
 .menu-btn {
     position: relative;
     display: flex;
