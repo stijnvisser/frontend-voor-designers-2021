@@ -27,12 +27,12 @@ Dit heb ik doormiddel van een sidenavigation gemaakt. Door deze sidenavigation e
 
 Versie 1
 
-![website](frontend-voor-designers-2021/img/opdracht1versie1.png)
+![website](./img/opdracht1versie1.png)
 ![alt text](./img/opdracht1versie1.png "opdracht1versie1")
 
 Versie 2
 
-Bij de tweede versie van mijn site heb ik bij elke woning een eigen side navigation gemaakt.
+Bij de tweede versie van mijn site heeft elke woning een eigen side-navigation waarop de data van de betreffende woning te zien is.
 
 Daarnaast is elke woning voorzien van een aparte kleur zodat het onderscheid onder de verschillende woningen duidelijker is.
 
