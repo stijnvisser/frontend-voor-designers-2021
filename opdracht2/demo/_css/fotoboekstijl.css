@@ -1,0 +1,57 @@
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background: url('lowlandsBackground.jpg');
+    background-size: cover;
+}
+
+#fotobladeren {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#foto {
+    max-width: 40em;
+}
+
+
+ul#thumbnails {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul#thumbnails li {
+    box-sizing: border-box;
+    width: 3em;
+    margin: 0.2em;
+}
+
+ul#thumbnails li.huidig {
+    border: 3px solid white;
+}
+
+ul#thumbnails img {
+    width: 100%;
+}
+
+button#terug,
+button#vooruit {
+    height: 1em;
+    width: 1em;
+    background-color: purple;
+    color: white;
+    font-size: 10em;
+    padding-bottom: 1.4em;
+    border: 8px solid white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
