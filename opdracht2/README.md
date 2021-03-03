@@ -10,7 +10,7 @@ Bij dit project, opdracht2, heb ik een fotopagina van lowlands gemaakt waarbij v
 
 Door op de twee buttons te klikken navigeer je door de foto's.
 
-Link: https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht1/demo/index.html
+Link: https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht1/demo/
 
 ## interface
 Leg de interface uit.
