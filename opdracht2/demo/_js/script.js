@@ -52,5 +52,5 @@ function bladerAchteruit() {
 }
 
 vooruitButton.addEventListener('click' , bladerVooruit );
-vooruitButton.addEventListener('down' , bladerVooruit );
+vooruitButton.addEventListener('keypress' , bladerVooruit );
 achteruitButton.addEventListener('click' , bladerAchteruit );
