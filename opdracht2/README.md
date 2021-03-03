@@ -13,6 +13,12 @@ Door op de twee buttons te klikken navigeer je door de foto's.
 Link: https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht2/demo/
 
 ## interface
+Breakdownschets:
+![website](../img/breakdownschetsOpdracht2.jpg)
+
+versie 1:
+![website](../img/opdracht2versie1.png)
+
 Leg de interface uit.
 
 In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
