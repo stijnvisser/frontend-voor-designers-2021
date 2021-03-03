@@ -6,8 +6,11 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
 # Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+Bij dit project, opdracht2, heb ik een fotopagina van lowlands gemaakt waarbij verschillende artiesten te zien zijn.
+
+Door op de twee buttons te klikken navigeer je door de foto's.
+
+Link: https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht1/demo/
 
 ## interface
 Leg de interface uit.
