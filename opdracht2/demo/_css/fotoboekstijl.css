@@ -5,7 +5,7 @@ h1{
 }
 
 body {
-    background: url('lowlandsBackground.jpg');
+    background: url('../_img/lowlandsBackground.jpg');
     background-size: cover;
 }
 
