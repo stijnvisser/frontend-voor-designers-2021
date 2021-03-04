@@ -8,13 +8,11 @@ var fotos = ['image00.jpg','image01.jpg', 'image02.jpg', 'image03.jpg', 'image04
 
 var fotoImg = document.querySelector('#foto');
 var huidigNrSpan = document.querySelector('#huidigeFotoNr');
-var thumbnailsUl = document.querySelector('#thumbnails');
 var laatsteNrSpan = document.querySelector('#laatsteFotoNr');
 var vooruitButton = document.querySelector('#vooruit');
 var achteruitButton = document.querySelector('#terug');
 
 var huidigFotoNr = 0 ; // 
-toonThumbnails() ;
 toonHuidigeFoto();	
 
 function toonHuidigeFoto() {
@@ -23,17 +21,9 @@ function toonHuidigeFoto() {
 	huidigNrSpan.textContent = huidigFotoNr ;
 	laatsteNrSpan.textContent = fotos.length - 1;
 
-	document.querySelectorAll('#thumbnails li').forEach( (thumbLi) => thumbLi.classList.remove('huidig'));
-	document.querySelector(`#thumbnails li:nth-of-type(${huidigFotoNr+1})`).classList.add('huidig');
 }
 
-function toonThumbnails() {
-	fotos.forEach( (foto) => {
-		thumbnailsUl.innerHTML += `<li><img src="_img/${foto}"</li>` ;
-	});
 
-
-}
 
 function bladerVooruit() {
 	huidigFotoNr = huidigFotoNr + 1 ;
