@@ -1,57 +1,168 @@
-h1{
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #23E3C9;
 }
 
-body {
-    background: url('../_img/lowlandsBackground.jpg');
-    background-size: cover;
+.slider{
+  background-color: white;
+  max-width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-#fotobladeren {
+.fadeIn{
+    background-color: white;
+    max-width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0.5;
+    }
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  opacity: 1;
+  transition-duration: 3s;
+  transition-delay: 1ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  opacity: 20%;
+  padding: 2px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 1s;
+  width: 2em;
+  height: 2em; 
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+
+
+#radio1:checked ~ .first{
+  margin-left: 1;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+  margin-left: -100%;
+}
+
+.navigation-auto{
+    position:absolute;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
 }
 
-#foto {
-    max-width: 40em;
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+  padding: 2px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 1s;
+  width: 2em;
+  height: 2em;
+transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+    opacity: 50%;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+    opacity: 50%;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+    opacity: 50%;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+    opacity: 50%;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #40D3DC;
+    opacity: 50%;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: #40D3DC;
+    opacity: 50%;
 }
 
 
-ul#thumbnails {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-ul#thumbnails li {
-    box-sizing: border-box;
-    width: 3em;
-    margin: 0.2em;
-}
-
-ul#thumbnails li.huidig {
-    border: 3px solid white;
-}
-
-ul#thumbnails img {
-    width: 100%;
-}
-
-button#terug,
-button#vooruit {
-    height: 1em;
-    width: 1em;
-    background-color: purple;
-    color: white;
-    font-size: 10em;
-    padding-bottom: 1.4em;
-    border: 8px solid white;
-}
-
-p {
-    text-align: center;
-    color: white;
-}
