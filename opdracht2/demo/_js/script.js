@@ -7,7 +7,7 @@ console.log('bladeren js');
     var fadeIn = document.getElementById('fadeIn1')
 
 function fadeOut() {
-    fadeIn.style.opacity = '0.5';
+    fadeIn.style.opacity = '1';
     
 }
     fadeIn.addEventListener("click", fadeOut);
