@@ -4,25 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <title>fotoboek</title>
-    <link rel="stylesheet" href="../_css/mijnstijl.css">
     <link rel="stylesheet" href="_css/fotoboekstijl.css">
 </head>
 
 <body>
-    <header>
-        <h1>Foto's Lowlands</h1>
-    </header>
-    <main>
-        <section  id='fotobladeren'>
-            <button id='terug'>-</button>
-            <div >
-                <img src="_img/image00.jpg" alt="vakantiefoto" id='foto'>
-                <p><span id='huidigeFotoNr'>huidig</span>/<span id='laatsteFotoNr'>aantal</span></p>
-                <ul id='thumbnails'></ul>
+
+    <div class="slider">
+       <div id="fadeIn1" class="fadeIn">
+        <div class="slides">
+
+                <input type="radio" name="radio-btn" class="radio" id="radio1">
+                <input type="radio" name="radio-btn" class="radio" id="radio2">
+                <input type="radio" name="radio-btn" class="radio" id="radio3">
+                <input type="radio" name="radio-btn" class="radio" id="radio4">
+                <input type="radio" name="radio-btn" class="radio" id="radio5">
+                <input type="radio" name="radio-btn" class="radio" id="radio6">
+
+                <div class="slide first">
+                    <img src="_img/image00.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="_img/image01.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="_img/image02.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="_img/image03.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="_img/image04.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="_img/image05.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                    <div class="auto-btn6"></div>
+                </div>
             </div>
-            <button id='vooruit'>+</button>
-        </section>
-    </main> =
+            <div class="navigation-manual">
+                <label onclick="fadeOut()" for="radio1" class="manual-btn"></label>
+                <label onclick="fadeOut()" for="radio2" class="manual-btn"></label>
+                <label onclick="fadeOut()" for="radio3" class="manual-btn"></label>
+                <label onclick="fadeOut()" for="radio4" class="manual-btn"></label>
+                <label onclick="fadeOut()" for="radio5" class="manual-btn"></label>
+                <label onclick="fadeOut()" for="radio6" class="manual-btn"></label>
+            </div>
+
+       </div>
+    </div>
+
 
     <script src='_js/script.js'></script>
 </body>
