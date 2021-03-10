@@ -32,6 +32,15 @@ body{
     }
 }
 
+@keyframes fadeOut {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0;
+    }
+}
+
 .slides{
   width: 500%;
   height: 500px;
