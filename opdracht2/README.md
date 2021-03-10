@@ -8,7 +8,7 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 # Project titel
 Bij dit project, opdracht2, heb ik een fotopagina van lowlands gemaakt waarbij verschillende artiesten te zien zijn.
 
-Door op de twee buttons te klikken navigeer je door de foto's.
+Door op de buttons te klikken navigeer je door de foto's.
 
 Link: https://stijnvisser.github.io/frontend-voor-designers-2021/opdracht2/demo/
 
@@ -21,7 +21,18 @@ versie 1:
 
 Leg de interface uit.
 
+versie 2:
+![website](../img/opdracht2versie2.png)
+
+Leg de interface uit:
+
+Bij de tweede versie ben ik helemaal opnieuw begonnen met mijn code en heb ik mij gefocused op css transities. 
+
+Ik heb geprobeerd om in css animaties te maken om dit vervolgens uit te laten voeren in Javascript.
+
 In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+
+Ik heb het principe: Keep users in control uit laten voeren 
 
 In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
 
